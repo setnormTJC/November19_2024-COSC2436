@@ -76,8 +76,8 @@ int main()
 	//main(); //the main function prints "Hello world" and then calls itself (without end)
 	//infinite recursion (results in stack overflow error) 
 
-	vector<int> nums = { 8, 6, 7, 5, 3, 0, 9 }; //sum of values = 38 
+	vector<int> nums = { 1, 2, 3, 4, 5 }; //sum of values = 38 
 	//cout << getElementCount(nums) << "\n";
 
-	cout << "Is it 38? " << recursiveVectorSum(nums) << "\n";
+	cout << "Is it 15? " << recursiveVectorSum(nums) << "\n";
 }
